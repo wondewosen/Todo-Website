@@ -1,0 +1,56 @@
+.todoform {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0 Auto;
+}
+.Input {
+    margin-right: 10px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+}
+.Input:focus {
+    outline: none;
+}
+.Add {
+    width: 50px;
+    border: none;
+    background-color: #f7ca18;
+    padding: 5px;
+    color: rgb(26, 13, 13);
+    margin-left: 70px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+}
+.formContainer {
+    display: flex;
+}
+.Item {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin: 0 Auto;
+    padding: 20px;
+    height: 50px;
+}
+.Deletebtn {
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 4px 10px 4px 10px;
+    background-color: #f7ca18;
+    border: none;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+.textClick {
+    cursor: pointer;
+}
