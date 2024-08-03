@@ -40,6 +40,7 @@
     margin: 0 Auto;
     padding: 20px;
     height: 50px;
+    cursor: pointer;
 }
 .Deletebtn {
     float: right;
@@ -51,6 +52,13 @@
     color: rgb(255, 0, 0);
     border-radius: 5px;
 }
-.textClick {
+.textclilck:hover {
+     cursor: pointer;
+}
+.complete {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.complete:hover {
     cursor: pointer;
 }
